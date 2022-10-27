@@ -1,1 +1,1 @@
-import .guess_the_number
+import guess_the_number
