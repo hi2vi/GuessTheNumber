@@ -16,7 +16,7 @@ class Game:
        if guess > self.number:
          print("Your number is too high.")
        if guess == self.number:
-         print(f"You won in just {i} guess(es)!")
+         print(f"You won in just {i+1} guess(es)!")
          break
        if guess < self.number:
          print("You number is too low.")
