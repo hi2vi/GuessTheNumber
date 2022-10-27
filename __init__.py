@@ -3,7 +3,7 @@ class Game:
   def __init__(self,guesses=5,number=None,a=None,b=None):
     self.guesses = gusses
     if number is None:
-      self.number = random.randint(a,b)
+      self.number = self.random.randint(a,b)
     else:
       self.number = number
     
