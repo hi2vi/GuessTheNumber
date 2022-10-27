@@ -1,6 +1,6 @@
 class Game:
   random = __import__('random')
-  def __init__(self,guesses=5,number=None,a=None,b=None):
+  def __init__(self,guesses=5,a=None,b=None,number=None):
     self.guesses = guesses
     if number is None:
       self.number = self.random.randint(a,b)
