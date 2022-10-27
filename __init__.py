@@ -20,8 +20,10 @@ class Game:
          break
        if guess < self.number:
          print("You number is too low.")
+     else:
+       print("Sorry, you lost.")
         
-  def reset(self,guesses=5,number=None,a=None,b=None):
+  def reset(self,guesses=5,a=None,b=None,number=None):
     self.guesses = gusses
     if number is None:
       self.number = random.randint(a,b)
